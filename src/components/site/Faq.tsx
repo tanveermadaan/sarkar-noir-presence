@@ -27,7 +27,7 @@ export const faqs = [
 
 export function Faq() {
   return (
-    <section aria-labelledby="faq-heading" className="section-pad border-b border-border/60">
+    <section id="faq" aria-labelledby="faq-heading" className="section-pad border-b border-border/60">
       <div className="mx-auto max-w-3xl px-5 md:px-8">
         <p className="eyebrow">FAQ</p>
         <h2 id="faq-heading" className="mt-4 text-4xl leading-tight md:text-5xl">
